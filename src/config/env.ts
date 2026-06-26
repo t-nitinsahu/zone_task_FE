@@ -1,4 +1,4 @@
-import { webEnvSchema } from "@zone/shared";
+import { webEnvSchema } from "../shared";
 
 const parsed = webEnvSchema.safeParse({
   WEB_API_BASE_URL:

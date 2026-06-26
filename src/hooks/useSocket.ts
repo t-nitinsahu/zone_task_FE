@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { type MessageDto, messageSchema } from "@zone/shared";
+import { type MessageDto, messageSchema } from "../shared";
 import { io, type Socket } from "socket.io-client";
 
 import { env } from "../config/env";

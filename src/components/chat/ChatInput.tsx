@@ -1,5 +1,5 @@
 import { type FormEvent, useState } from "react";
-import { createMessageSchema } from "@zone/shared";
+import { createMessageSchema } from "../../shared";
 
 type ChatInputProps = {
   onSubmit: (payload: { userName: string; content: string }) => Promise<void>;

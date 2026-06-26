@@ -1,4 +1,4 @@
-import { messageListSchema, messageSchema, type CreateMessageInput, type MessageDto } from "@zone/shared";
+import { messageListSchema, messageSchema, type CreateMessageInput, type MessageDto } from "../shared";
 
 import { apiClient } from "../lib/axios";
 

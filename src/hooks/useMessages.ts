@@ -1,5 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import type { CreateMessageInput, MessageDto } from "@zone/shared";
+import type { CreateMessageInput, MessageDto } from "../shared";
 
 import { createMessage, fetchMessages } from "../api/chatApi";
 

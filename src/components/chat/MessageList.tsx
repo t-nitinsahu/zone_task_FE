@@ -1,4 +1,4 @@
-import type { MessageDto } from "@zone/shared";
+import type { MessageDto } from "../../shared";
 
 type MessageListProps = {
   items: MessageDto[];
