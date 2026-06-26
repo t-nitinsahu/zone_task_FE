@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: 241 245 249;
+  --color-surface: 255 255 255;
+  --color-text: 15 23 42;
+  --color-brand-700: 14 116 144;
+  --color-brand-500: 6 182 212;
+}
+
+body {
+  @apply min-h-screen antialiased;
+  background: radial-gradient(circle at top, rgb(var(--color-brand-500) / 0.15), transparent 45%),
+    rgb(var(--color-bg));
+  color: rgb(var(--color-text));
+}
